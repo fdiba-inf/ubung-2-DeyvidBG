@@ -22,14 +22,14 @@ public class QuadraticEquation {
           if(diskriminante >= 0) {
             double x1 = (-b + Math.sqrt(diskriminante))/2;
             double x2 = (-b + Math.sqrt(diskriminante))/2;
-            System.out.println("x1: " + x1);
-            System.out.println("x2: " + x2);
+            System.out.println(x1 + ", " + x2);
           } else {
             System.out.println("Imaginary values");
           }
         } else {
           if(b!=0) {
             double x = -(c/b);
+            System.out.println(x);
           } else {
             if(c!=0) {
               System.out.println("No values");
