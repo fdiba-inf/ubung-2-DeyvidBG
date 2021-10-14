@@ -15,7 +15,7 @@ public class Circle {
         double area = Math.PI*Math.pow(radius, 2);
         
 
-        System.out.println("Circum Reference: " + circumReference);
+        System.out.println("Circumference: " + circumReference);
         System.out.println("Area: " + area);
     }
 
