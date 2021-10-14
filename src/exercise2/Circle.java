@@ -9,10 +9,10 @@ public class Circle {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a radius: ");
-        double radius = input.nextFloat();
+        double radius = input.nextDouble();
 
-        float circumReference = 2*Math.PI*radius;
-        float area = Math.PI*Math.pow(radius, 2);
+        double circumReference = 2*Math.PI*radius;
+        double area = Math.PI*Math.pow(radius, 2);
         
 
         System.out.println("Circum Reference: " + circumReference);
