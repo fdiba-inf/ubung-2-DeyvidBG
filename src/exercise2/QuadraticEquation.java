@@ -9,13 +9,13 @@ public class QuadraticEquation {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter a: ");
-        int a = input.nextInt();
+        double a = input.nextDouble();
 
         System.out.print("Enter b: ");
-        int b = input.nextInt();
+        double b = input.nextDouble();
 
         System.out.print("Enter c: ");
-        int c = input.nextInt();
+        double c = input.nextDouble();
 
         if(a!=0) {
           double diskriminante = Math.pow(b, 2) - 4*a*c;
