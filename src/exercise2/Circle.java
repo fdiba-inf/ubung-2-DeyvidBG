@@ -16,7 +16,7 @@ public class Circle {
         
 
         System.out.println("Circum Reference: " + circumReference);
-        System.out.println(" Area: " + area);
+        System.out.println("Area: " + area);
     }
 
 }
